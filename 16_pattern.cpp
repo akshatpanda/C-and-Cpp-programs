@@ -10,7 +10,22 @@ int main(){
         int j = i;
         int k = 1;
         while(k<=n){
-            cout<<j<<' ';
+            if(k == 1){
+                if(j<10){
+                    cout<<" "<<j<<" ";
+                }
+                else{
+                    cout<<j<<" ";
+                }
+            }
+            else{
+                if(j<10){
+                    cout<<" "<<j<<" ";
+                }
+                else{
+                    cout<<j<<" ";
+                }
+            }
             j = j + 1;
             k = k + 1;
         }
